@@ -1,0 +1,597 @@
+/*
+Color Scheme
+--------------------
+Full Warm Gray #38402f
+Mid Grey #787c6d
+Light Sand #dcdacb
+Off #eeeeee #eeeeee
+Shellfish Orange #f05725
+*/
+/*
+
+
+
+
+All
+
+
+
+
+
+*/
+html body{
+font-size: 18px;
+font-family: 'Rubik', sans-serif;
+color: #38402f;
+background-color: #dcdacb;
+}
+.flexBet {
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+.flexLeft {
+display: flex;
+justify-content: flex-start;
+align-items: center;
+}
+.flexCen {
+display: flex;
+justify-content: center;
+align-items: center;
+}
+/*
+
+
+
+
+Header
+
+
+
+
+
+*/
+header{
+height: 64px;
+width: 100%;
+background-color: #dcdacb;
+padding: 20px 24px;
+color: #38402f;
+}
+header img{
+display: inline-flex;
+margin: 2px 2px 2px 24px;
+height: 60px;
+width: auto;
+}
+header span{
+font-size: 2rem;
+align-content: center;
+justify-content: flex-start;
+text-transform: uppercase;
+}
+.titleOne{
+font-weight: 800;
+font-family: 'Trirong', serif;
+color: #38402f;
+}
+.titleTwo{
+font-weight: 200;
+color: #787c6d
+}
+header ul{
+padding: 2px 24px 2px 2px;
+}
+header li{
+display: inline;
+padding: 0px 16px;
+color: #38402f;
+}
+header a{
+font-style: normal;
+color: #38402f;
+text-decoration: none;
+font-size: 1.5rem;
+}
+header a:hover{
+transition-duration: .5s;
+color: #f05725;
+}
+.headerIcon {
+display: none;
+visibility: hidden;
+}
+/*
+
+
+
+
+Banner
+
+
+
+
+
+*/
+#banner{
+background-color: #787c6d;
+display: flex;
+color: #eeeeee;
+}
+#banner img{
+width: 60%;
+height: 50%;
+padding: 32px 24px;
+}
+#banner h3, #information h3{
+font-weight: bold;
+font-family: 'Trirong', serif;
+font-size: 3rem;
+}
+.banInfo{
+display: block;
+margin: 16px 48px 16px 16px;
+width: 100%;
+}
+.banInfoPara{
+display: block;
+padding-top: 36px;
+font-size: 1.8rem;
+}
+.banInfoBut{
+background-color: #38402f;
+color: #eeeeee;
+width: 90%;
+height: 24px;
+margin-top: 36px;
+text-align: center;
+padding: 15px 5px;
+font-size: 1.3rem;
+font-family: 'Trirong', serif;
+border-radius: 5px;
+}
+.banInfoBut a{
+color: #eeeeee;
+text-decoration: none;
+}
+.banInfoBut:hover{
+background-color: #f05725;
+transition-duration: .5s;
+box-shadow: 3px 3px 8px 1px #38402f;
+}
+/*
+
+
+
+
+Information
+
+
+
+
+
+*/
+#information{
+display: flex;
+background-color: #dcdacb;
+}
+.infoMain{
+width: 60%;
+padding: 32px 24px 200px 24px;
+border-right: solid 1px #787c6d;
+}
+.infoMain img{
+width: 100%;
+}
+.infoMainSideImgMobile{
+display:none;
+}
+.infoMainQuote{
+font-weight: 300;
+font-size: 1.1rem;
+padding: 24px 0px;
+font-style: italic;
+}
+.infoMainAuthor{
+font-family: "Times New Roman";
+}
+.infoMainSide{
+width: 40%;
+display: block;
+}
+.infoMainSideBox{
+display: inline-flex;
+padding: 20px;
+border-bottom: solid 1px #787c6d;
+min-width: 423px;
+}
+.infoMainSideBox img{
+width: 35%;
+height: 40%;
+padding: 10px;
+}
+.infoMainSideText{
+display: block;
+padding: 10px;
+}
+.infoMainTitle{
+display:block;
+font-size: 1.75rem;
+font-weight: 600;
+color: #444444;
+font-family: 'Trirong', serif;
+}
+.infoMainAbout{
+display:block;
+padding: 18% 0px;
+font-size: 1.3rem;
+font-weight: 400;
+color: #444444;
+}
+.infoMainMore{
+display:block;
+font-size: 1.3rem;
+font-weight: 400;
+color: #38402f;
+}
+.infoMainMore a{
+padding: 10px;
+color: #38402f;
+text-decoration: none;
+background-color: #eeeeee;
+border-radius: 10px;
+border: solid 1px #787c6d;
+}
+.infoMainMore a:hover{
+background-color: #f05725;
+color: #38402f;
+border-radius: 10px;
+transition-duration: .5s;
+color: #eeeeee;
+}
+.infoMainSideBox:hover{
+background-color: #eeeeee;
+transition-duration: .5s;
+}
+.gray {
+background-color: #787c6d;
+}
+/*
+
+
+
+
+Course
+
+
+
+
+
+*/
+#courseStart{
+padding: 32px;
+font-size: 2.5rem;
+font-family: 'Trirong', serif;
+color: #eeeeee;
+text-align: center;
+background-color: #787c6d;
+font-weight: bold;
+}
+#course{
+display: inline-flex;
+background-color: #787c6d;
+flex-wrap: wrap;
+padding-bottom: 32px;
+}
+.courseBox{
+margin: 16px;
+width: 300px;
+height: 350px;
+display: block;
+background-color: #dcdacb;
+color: #444444;
+border-radius: 10px;
+}
+.courseBox:hover{
+background-color: #eeeeee;
+transition-duration: .5s;
+box-shadow: 3px 3px 8px 1px #38402f;
+}
+.courseBox img{
+width: 100%;
+border-radius: 10px 10px 0px 0px;
+}
+.courseBox h3{
+padding: 16px;
+font-size: 1.2rem;
+font-weight: bold;
+font-family: 'Trirong', serif;
+}
+.courseLabel{
+text-transform: uppercase;
+padding: 8px 16px;
+font-size: 1.2rem;
+font-weight: 300;
+}
+.courseTitles{
+padding: 0px 16px;
+font-size: 1.1rem;
+font-weight: 300;
+line-height: 1.4;
+}
+/*
+
+
+
+
+Thesis
+
+
+
+
+
+*/
+#thesisStart{
+padding: 32px;
+font-size: 2.5rem;
+color: #38402f;
+text-align: center;
+background-color: #dcdacb;
+font-weight: bold;
+font-family: 'Trirong', serif;
+}
+#thesis{
+background-color: #dcdacb;
+width: 100%;
+padding-bottom: 32px;
+border-bottom: solid 1px #787c6d;
+font-family: 'Trirong', serif;
+}
+.thesisGroup{
+display: inline-flex;
+width: 90%;
+padding: 0px 16px 24px 24px;
+}
+.thesisMovie{
+padding: 12px 16px 0px 0px;
+}
+.thesisMovie video{
+width: 100%;
+border: solid 1px #787c6d;
+}
+.thesisMovie h3, .thesisBox h3{
+padding: 16px 0px;
+font-size: 1.2rem;
+font-weight: bold;
+font-family: 'Trirong', serif;
+}
+.thesisMovie p{
+font-size: 1rem;
+font-weight: 300;
+}
+.thesisExhibit{
+width: 432px;
+display: block;
+}
+.thesisOption{
+width: 432px;
+display: block;
+}
+.thesisBox{
+width: 432px;
+display: inline-flex;
+padding: 16px;
+border: solid 1px #787c6d;
+margin: 5px 0px;
+}
+.thesisOption img{
+width: 136px;
+height: 136px;
+min-width: 136px;
+min-height: 136px;
+padding: 0px 12px;
+}
+.thesisBox:hover{
+background-color: #eeeeee;
+transition-duration: .5s;
+}
+.thesisText{
+display: block;
+}
+.thesisText h3{
+padding: 16px;
+font-size: 1.2rem;
+font-weight: bold;
+font-family: 'Trirong', serif;
+}
+.thesisText p{
+padding: 16px;
+font-size: 1rem;
+font-weight: 300;
+}
+/*
+
+
+
+
+footer
+
+
+
+
+
+*/
+footer{
+background-color: #dcdacb;
+font-size: 1rem;
+font-weight: 200;
+color: #38402f;
+width: 100%;
+}
+.copyright{
+padding: 24px;
+font-weight: 200;
+flex-grow: 5;
+}
+.terms{
+padding: 24px;
+font-weight: 200;
+}
+.terms span{
+padding: 0px 24px;
+}
+.terms span:hover{
+color: #f05725;
+transition-duration: .5s;
+}
+/*
+Media Screen Size Changes
+---------------------------
+Color Repeat
+---------------------------
+Full Warm Gray #38402f
+Mid Grey #787c6d
+Light Sand #dcdacb
+Off #eeeeee #eeeeee
+Shellfish Orange #f05725
+*/
+@media screen and (max-width: 1024px) {
+/*
+
+header
+
+*/
+.headerText {
+display: none;
+visibility: hidden;
+}
+.headerIcon {
+display: inline;
+visibility: visible;
+}
+/*
+
+banner
+
+*/
+#banner, #banner .flexCen{
+display: block;
+text-align: center;
+}
+#banner img{
+width: 100%;
+padding: 0px;
+}
+.banInfo{
+padding: 32px 16px;
+text-align: left;
+}
+.banInfoPara{
+width: 80%;
+margin: 32px 0px 24px 0px;
+}
+.banInfoBut{
+margin: 0px 18%;
+width: 50%;
+}
+/*
+
+information
+
+*/
+.infoMain{
+display: none;
+}
+.infoMainSide{
+width: 100%;
+}
+.infoMainSideBox{
+display: block;
+width: 100%;
+padding: 0px;
+}
+.infoMainSideImgMobile{
+display:block;
+width: 100%;
+}
+.infoMainSideImgMobile img, .infoMainSideBox img{
+width: 94%;
+padding: 16px;
+}
+.infoMainSideImgFull img, .infoMainSideImgFull{
+display:none;
+}
+.infoMainTitle, .infoMainAbout, .infoMainMore{
+padding: 16px;
+}
+.infoMainTitle{
+padding: 16px;
+}
+/*
+
+course
+
+*/
+#courseStart{
+background-color: #787c6d;
+}
+#course{
+display: block;
+padding-top: 1px;
+background-color: #787c6d;
+}
+.courseBox img,.courseBox p, .courseLabel, .courseTitles{
+display: none;
+}
+.courseBox{
+border-radius: 0px;
+height: auto;
+width: auto;
+}
+.courseBox h3{
+padding: 16px;
+margin: 4px;
+}
+/*
+
+thesis
+
+*/
+#thesisStart{
+background-color: #dcdacb;
+}
+.thesisExhibit, .thesisMovie p, .thesisMovie h3, .terms{
+display: none;
+}
+.thesisMovie, .thesisMovie video, .thesisGroup, .thesisExhibit, #thesis{
+padding: 0px;
+margin: 0px;
+width: 100%;
+background-color: #dcdacb;
+}
+/*
+
+footer
+
+*/
+footer{
+background-color: #eeeeee;
+}
+.copyright{
+padding: 40px 16px 16px 16px;
+background-color: #dcdacb;
+}
+.terms{
+display: none;
+}
+
+}
+/*
+Media Screen Size Changes
+*/
+@media screen and (max-width: 725px) {
+.titleOne, .titleTwo{
+display: none;
+}
+}
